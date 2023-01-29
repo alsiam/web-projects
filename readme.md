@@ -4,7 +4,7 @@ Welcome to the **Web Design Lab**! 🎉 This repository contains over 10+ 🔥 w
 
 ## Project List 📜
 
-- 💻 Project 1: [Al Siam](https://alsiam.com)
+- 💻 Project 1: [Hamburger Food](https://alsiam.github.io/web-design-lab/hamburger-food)
 - ... coming soon..!
 
 ## How to Contribute 👨‍💻
