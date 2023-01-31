@@ -4,8 +4,15 @@ Welcome to the **Web Design Lab**! 🎉 This repository contains over 10+ 🔥 w
 
 ## Project List 📜
 
-- 💻 Project 1: [Hamburger Food](https://alsiam.github.io/web-design-lab/hamburger-food)
+- 💻 Project 1: Hamburger Food [Hamburger Food]()
+- 💻 Project 2: Youtube UI  [Source Code](https://alsiam.github.io/web-design-lab/youtube-ui/)  [Previw Site](https://alsiam.github.io/web-design-lab/youtube-ui/)
 - ... coming soon..!
+
+
+|  No.| Project         | Source Code                                                          | Live Preview         |
+| :-: | ----------------|----------------------------------------------------------------------|-----------------------------------------------------
+| 01  | Hamburger Food | [View Code](https://github.com/alsiam/web-design-lab/tree/main/hamburger-food) | [Preview Site](https://alsiam.github.io/web-design-lab/hamburger-food)
+| 02  | Youtube UI  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/youtube-ui)        | [Preview Site](https://alsiam.github.io/web-design-lab/yotube-ui)
 
 ## How to Contribute 👨‍💻
 
