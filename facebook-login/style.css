@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+.fb-header{
+    background: #46629E;
+    overflow: hidden;
+}
+.fb-header-container{
+    padding: 15px;
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+}
+.logo h1{
+    color: rgb(252, 252, 252);
+    float: left;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 45px;
+
+}
+.fb-log-in{
+    text-align: center;
+    margin-top: 5px;
+    float: right;
+    padding: 10px;
+}
+.fb-log-in a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #244180;
+    background: #375492;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fb-log-in a:hover{
+    background: #3357a5;
+    transition: .5s;
+}
+
+
+/* ==================
+-----  Account Info Started
+===================*/
+
+.acc-info{
+    background: #EBEDF0;
+}
+.acc-wrapper{
+    width: 30%;
+    margin: auto;
+}
+.acc-header{
+    overflow: hidden;;
+}
+.acc-header h1{
+    font-size: 40px;
+    margin: 15px 0;
+    font-weight: 700;
+    color: #333;
+}
+.acc-header h3{
+    font-weight: normal;
+    font-family: arial;
+    font-size: 22px;
+    color: rgb(112, 110, 110);
+    margin-bottom: 15px;
+}
+
+.acc-input form input{
+    width: 95%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;;
+}
+.acc-input form input:first-child{
+    width: 44%;
+    float: left;
+    margin-right: 5px;
+}
+.acc-input form input:nth-child(2){
+    width: 44.5%;
+    float: left;
+    margin-right: 0;
+}
+
+form input {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.acc-input form h3{
+    color: gray;
+    font-weight: none;
+    font-family: arial;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.acc-input select{
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.acc-input label input{
+    width:20px !important;
+    float: none !important;
+}
+.acc-input label span{
+    font-size: 20px;
+    color: #333;
+    margin-right: 20px;
+    font-weight: normal;
+    font-family: arial;
+}
+
+.fb-input-disc{
+    font-size: 11px;
+    font-weight: normal;
+    font-family: arial;
+    width: 70%;
+    color: gray;
+    padding: 10px 0px;
+}
+.input-highLight{
+    color: rgb(2, 128, 179);
+}
+
+.fb-input-button{
+    padding: 15px 0;
+    padding-bottom: 30px;
+}
+.fb-input-button input{
+    background: #69a74e;
+    color: white;
+    padding: 8px 60px;
+    font-size: 20px;
+    font-family: arial;
+    border: 1px solid black;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.fb-input-button input:hover{
+    background: linear-gradient(#76b45b,#69a74e)
+}
+
+.fa-question-circle{
+    color: rgb(122, 122, 122);
+    font-size: 16px;
+}
+
+.fb-footer{
+    margin-top: 50px;
+}
+.footer-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.footer-head ul{
+    width: 70%;
+    list-style: none;
+    padding: 10px 0px;
+}
+.footer-head ul li{
+    display: inline-block;
+    padding-right: 5px;
+
+}
+.footer-head ul li a{
+    color: rgb(16, 75, 109);
+    font-size: 11px;
+    text-decoration: none;
+    font-family: arial;
+
+}
+.fa-plus-circle{
+    color: rgb(16, 75, 109);
+}
+.footer-bottom ul{
+    width: 100%;
+    list-style: none;
+    border-top: 1px solid rgb(192, 191, 191);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footer-bottom ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.footer-bottom ul li a{
+    color: rgb(16, 75, 109);
+    font-size: 12px;
+    font-family: arial;
+    text-decoration: none;
+}
+.active{
+    color: gray;
+}
+b{
+    font-weight: normal;
+    color: gray;
+    font-size: 12px;
+    font-family: arial;
+    padding-bottom: 50px;
+}
