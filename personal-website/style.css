@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,span{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+header{
+    padding-bottom: 50px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo span{
+    color: tomato;
+    font-size: 35px;
+    letter-spacing: 3px;
+    padding: 3px 0;
+    margin: 7px 0;
+    display: block;
+    border-bottom: 3px solid tomato;
+}
+.menu-box{
+    width: 80%;
+    overflow: hidden;
+}
+.menu-box ul{
+    float: right;
+}
+.menu-box ul li{
+    display: inline-block;
+}
+.menu-box ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.half-width{
+    width: 40%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.intro-img{
+    margin-left: 20%;
+}
+.intro-title h1{
+    color: #363958;
+    font-size: 70px;
+    line-height: 80px;
+}
+.intro-title span{
+    display:block;
+    color: #FF8367;
+    letter-spacing: 5px;
+}
+.intro-title p{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.link-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.about-title{
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.about-title h2{
+    font-size: 50px;
+}
+.about-title p{
+    margin: 30px 0;
+    margin-bottom: 50px;
+}
+
+
+
+
+.service-box{
+    padding: 50px 0;
+}
+.service-box h3{
+    color: #363958;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 20px 0;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.service-box span{
+    color: #FF8367;
+}
+.box-wrap{
+    padding: 50px;
+    overflow: hidden;
+
+}
+.box{
+    width: 25%;
+    padding: 3%;
+    box-shadow: 0px 0px 20px gray;
+    margin-left: 15px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+
+}
+.box h1{
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    top: -50px;
+    left: 130px;
+    color: #444;
+}
+.box h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.box p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+.project-box{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.project-box h1{
+    color: #FF8367;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.project-box span{
+    color: #363958;
+}
+.project-work{
+    padding: 20px 0;
+    overflow: hidden;
+}
+.work-box{
+    width: 25%;
+    padding: 2%;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 0px 0px 20px gray;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+}
+
+.work-box img{
+    width: 100%;
+    border-radius: 10px;
+}
+.work-box h3{
+    margin: 10px 0;
+    font-family: Roboto;
+}
+.work-box p{
+    width: 100%;
+    text-align: justify;
+}
+
+
+
+.chat-box{
+    width: 70%;
+    margin: auto;
+}
+
+.inquiry-desc{
+    background-image: url(img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    overflow: hidden;
+}
+.inquiry-desc h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 9%;
+    float: left
+
+}
+.inquiry-desc a{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    margin: 10%;
+    display: block;
+    width: 150px;
+    text-align: center;
+    float: right;
+
+}
+
+
+
+.contact-box{
+    margin: 50px 0;
+}
+.contact-box h3{
+    text-align: center;
+    font-weight: 300;
+}
+.contact-box h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+}
+.social-box{
+    width: 15%;
+    margin: auto;
+    overflow: hidden;
+}
+.contact-box img{
+    width: 40px;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 0 10px;
+    margin: auto;
+}
