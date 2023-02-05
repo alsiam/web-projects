@@ -20,6 +20,7 @@ Welcome to the **Web Design Lab**! 🎉 This repository contains over 10+ 🔥 w
 | 12  | Simple Folio  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/simple-folio)        | [Preview Site](https://alsiam.github.io/web-design-lab/simple-folio)
 | 13  | Spourmo Web  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/spourmo-web)        | [Preview Site](https://alsiam.github.io/web-design-lab/spourmo-web)
 | 14  | Systematic Page  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/systematic-page)        | [Preview Site](https://alsiam.github.io/web-design-lab/systematic-page)
+| 15  | Bike Palace  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/bike-palace)        | [Preview Site](https://alsiam.github.io/web-design-lab/bike-palace)
 
 ## How to Contribute 👨‍💻
 
