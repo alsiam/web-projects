@@ -1,0 +1,403 @@
+/* ===========================
+----------Normal Mode
+=============================== */
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+  .social-menu {
+    display: none;
+  }
+  #selectnav1 {
+    display: none;
+  }
+}
+
+/* ===========================
+----------Tablet Mode
+=============================== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    width: 90%;
+  }
+  #selectnav1 {
+    display: none;
+  }
+  .slider-box {
+    width: 90%;
+  }
+  .post-box {
+    width: 90%;
+  }
+  .featured-post-box {
+    width: 90%;
+  }
+  footer {
+    width: 90%;
+  }
+  .logo {
+    width: 40%;
+    font-size: 30px;
+  }
+  .banner:hover img {
+    opacity: 0.9;
+    transform: scale(1);
+    color: gray;
+    transition: 1s;
+  }
+  .social-menu {
+    display: none;
+  }
+  nav ul li a {
+    font-size: 18px;
+    margin: 0 18px;
+  }
+
+  .left-side-wrap h2 {
+    width: 100%;
+  }
+  .left-side-wrap p {
+    text-align: justify;
+    font-size: 16px;
+    height: 4vh;
+    overflow: hidden;
+  }
+  .left-side-wrap img {
+    width: 150px;
+    margin: auto;
+    display: block;
+    float: none;
+  }
+  .left-side-wrap a {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .wrapper {
+    width: 100%;
+    float: none;
+    padding: 10px;
+  }
+  .html {
+    width: 100%;
+  }
+  .img-wrapper {
+    max-width: 100%;
+    margin: auto;
+  }
+  .img-wrapper img {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: block;
+  }
+  .about-details {
+    padding: 10px 20px;
+    width: 100%;
+    float: none;
+  }
+
+  .about-img {
+    max-width: 80%;
+    position: relative;
+    float: none;
+    margin: auto;
+  }
+  .contact-form input {
+    width: 90%;
+  }
+  .contact-form textarea {
+    width: 90%;
+  }
+
+  .img-wrapper img {
+    width: 80%;
+  }
+  .port-wrap {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* ===========================
+----------Mobile Device
+=============================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  header {
+    width: 95%;
+  }
+  #selectnav1 {
+    display: none;
+  }
+  .slider-box {
+    width: 95%;
+  }
+  .post-box {
+    width: 95%;
+  }
+  .featured-post-box {
+    width: 95%;
+  }
+  footer {
+    width: 95%;
+  }
+  .logo {
+    width: 100%;
+    font-size: 25px;
+  }
+  .banner img {
+    display: none;
+  }
+  .banner:hover img {
+    opacity: 0.9;
+    transform: scale(1);
+    color: gray;
+    transition: 1s;
+  }
+  .social-menu {
+    display: none;
+  }
+  nav ul li a {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  nav ul li:hover a {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 6px 0;
+  }
+  .left-side-post {
+    width: 100%;
+  }
+  .right-side-post {
+    width: 100%;
+  }
+  .right-side-wrap .latest-wrap ul {
+    height: auto;
+    padding: 15px;
+  }
+  .right-side-wrap .recent-wrap ul {
+    height: auto;
+    padding: 15px;
+  }
+  .left-side-wrap h2 {
+    width: 100%;
+  }
+  .left-side-wrap p {
+    text-align: justify;
+    font-size: 16px;
+    height: 4vh;
+    overflow: hidden;
+  }
+  .left-side-wrap img {
+    width: 150px;
+    margin: auto;
+    display: block;
+    float: none;
+  }
+  .left-side-wrap a {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .featured-wrap {
+    flex-direction: column;
+  }
+  .wrapper {
+    width: 100%;
+    float: none;
+    padding: 10px;
+  }
+  .html {
+    width: 100%;
+  }
+  .img-wrapper {
+    max-width: 100%;
+    margin: auto;
+  }
+  .img-wrapper img {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: block;
+  }
+  .about-details {
+    padding: 10px 20px;
+    width: 100%;
+    float: none;
+  }
+
+  .about-img {
+    max-width: 80%;
+    position: relative;
+    float: none;
+    margin: auto;
+  }
+  .contact-form input {
+    width: 90%;
+  }
+  .contact-form textarea {
+    width: 90%;
+  }
+
+  .img-wrapper img {
+    width: 80%;
+  }
+  .port-wrap {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* ===========================
+----------Mobile Device
+=============================== */
+
+@media only screen and (min-width: 200px) and (max-width: 479px) {
+  header {
+    width: 95%;
+  }
+  #selectnav1 {
+    display: block;
+  }
+  nav ul {
+    padding: 5px 15px;
+    height: 3vh;
+    display: none;
+  }
+  #selectnav1 {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    padding: 7px 10px;
+    outline: none;
+    border: 1px solid gray;
+    margin: 3px;
+  }
+  option {
+    background: #dadada;
+  }
+  .slider-box {
+    width: 95%;
+  }
+  .post-box {
+    width: 95%;
+  }
+  .featured-post-box {
+    width: 95%;
+  }
+  footer {
+    width: 95%;
+  }
+  .logo {
+    width: 100%;
+    font-size: 25px;
+  }
+  .banner img {
+    display: none;
+  }
+
+  .social-menu {
+    display: none;
+  }
+  nav ul {
+    padding: 5px 15px;
+    height: 3vh;
+  }
+  nav ul li a {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+  nav ul li:hover a {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 6px 0;
+  }
+  .left-side-post {
+    width: 100%;
+  }
+  .left-side-wrap a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .left-side-wrap img {
+    width: 100px;
+  }
+  .right-side-post {
+    width: 100%;
+  }
+  .right-side-wrap .latest-wrap ul {
+    height: auto;
+    padding: 15px;
+  }
+  .right-side-wrap .recent-wrap ul {
+    height: auto;
+    padding: 15px;
+  }
+  .left-side-wrap h2 {
+    width: 100%;
+  }
+  .left-side-wrap p {
+    text-align: justify;
+    font-size: 16px;
+    height: 4vh;
+    overflow: hidden;
+  }
+  .left-side-wrap img {
+    width: 150px;
+    margin: auto;
+    display: block;
+    float: none;
+  }
+  .left-side-wrap a {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .featured-wrap {
+    flex-direction: column;
+  }
+  wrapper {
+    width: 100%;
+    float: none;
+    padding: 10px;
+  }
+  .html {
+    width: 100%;
+  }
+  .img-wrapper {
+    max-width: 100%;
+    margin: auto;
+  }
+  .img-wrapper img {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: block;
+  }
+  .about-details {
+    padding: 10px 20px;
+    width: 100%;
+    float: none;
+  }
+
+  .about-img {
+    max-width: 80%;
+    position: relative;
+    float: none;
+    margin: auto;
+  }
+  .contact-form input {
+    width: 90%;
+  }
+  .contact-form textarea {
+    width: 90%;
+  }
+
+  .img-wrapper img {
+    width: 80%;
+  }
+  .port-wrap {
+    float: none;
+    width: 100%;
+  }
+}
