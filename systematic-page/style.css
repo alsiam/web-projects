@@ -1,0 +1,442 @@
+/* =====================================================
+    Default CSS
+========================================================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Georgia;
+  font-size: 14px;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+/* =====================================================
+    Common CSS class
+========================================================*/
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+p.description {
+  color: #555;
+  line-height: 25px;
+  margin: 3px 0;
+  font-size: 16px;
+  line-height: 23px;
+}
+a.link {
+  margin: 10px 0;
+  float: right;
+  font-size: 18px;
+  color: #ba2e1f;
+  text-transform: capitalize;
+}
+a.link::after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 4px;
+}
+span.red {
+  color: red;
+}
+h1 {
+  color: #444;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+h3 {
+  color: #444;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+/* =====================================================
+    Custom CSS Started
+========================================================*/
+
+/* =====================================================
+    Header Top 
+========================================================*/
+/* header top */
+.header-top {
+  background: #ba2e1f;
+  padding: 10px 10%;
+}
+.header-info {
+  padding: 5px 0;
+}
+.header-info ul li {
+  display: inline-block;
+}
+.header-info ul li a {
+  color: #fff;
+  padding: 0 5px;
+  border-right: 2px solid #cacaca;
+}
+/* -------*/
+.header-search {
+  width: 270px;
+  position: relative;
+  overflow: hidden;
+}
+.header-search input[type="text"] {
+  width: 250px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  z-index: 1;
+  color: #444;
+}
+.header-search input[type="submit"] {
+  font-family: "Font Awesome 5 Free";
+  font-size: 12px;
+  font-weight: 900;
+  color: #fff;
+  background-color: #ba2e1f;
+  border: none;
+  border-radius: 50%;
+  padding: 3px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/* header middle */
+/* ----- */
+.header-middle {
+  width: 80%;
+  margin: 10px auto;
+  place-items: end;
+}
+.header-logo {
+  font-family: monospace;
+  font-weight: normal;
+}
+.logo-text::first-letter {
+  font-size: 40px;
+}
+.logo-text {
+  font-size: 30px;
+}
+/* ------ */
+.header-social ul li {
+  display: inline-block;
+}
+.header-social ul li a {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  padding: 7px;
+  border-radius: 50%;
+  display: block;
+  transition: 0.5s;
+}
+.header-social ul li a:hover {
+  background-color: #ee802f;
+}
+/* header navigation */
+.header-nav {
+  width: 80%;
+  margin: 30px auto;
+}
+.header-nav ul {
+  padding: 5px 0;
+  text-align: center;
+  background: linear-gradient(#333 50%, #222 50%);
+}
+.header-nav ul li {
+  display: inline-block;
+}
+.header-nav ul li a {
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.header-nav ul li a:hover {
+  color: #ba2e1f;
+}
+
+/* =====================================================
+    Title bOx
+========================================================*/
+.title-box {
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: end;
+}
+.title-img {
+  max-width: 40%;
+}
+.title-img img {
+  width: 100%;
+}
+.title-text {
+  width: 58%;
+  margin-left: 1%;
+}
+.title-text h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.title-text h1 span {
+  display: block;
+  font-size: 70px;
+  font-family: georgia;
+}
+
+.title-text .link {
+  text-transform: uppercase;
+}
+
+/* =====================================================
+    Random Widget
+========================================================*/
+.random-widget {
+  background-color: #eee;
+  margin-bottom: 50px;
+}
+.random-wrap {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.random-wrap h1 {
+  padding: 50px 0;
+}
+/* ------ */
+.about-box img {
+  width: 100%;
+}
+
+/* ---- */
+.service-item {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.service-item img {
+  margin-top: 5px;
+  margin-right: 20px;
+  float: left;
+}
+/* ------ */
+
+.client-num {
+  margin-bottom: 40px;
+}
+.client-title {
+  display: block;
+  overflow: hidden;
+}
+.client-title {
+  width: 500px;
+  overflow: hidden;
+}
+.client-title i {
+  width: 50px;
+  font-size: 50px;
+  color: #ddd;
+  float: left;
+}
+.client-title b {
+  width: 400px;
+  margin-top: 15px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.client-title span {
+  text-transform: uppercase;
+  color: #ba2e1f;
+}
+/* =====================================================
+    Footer Widget
+========================================================*/
+.footer-widget {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  justify-content: space-between;
+}
+.footer-widget h3 {
+  padding: 40px 0;
+  border-top: 2px solid #888;
+}
+.tweets-box p {
+  margin-bottom: 20px;
+}
+.quick-links ul li {
+  color: #444;
+  font-size: 16px;
+  margin: 5px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #bbb;
+}
+.blog-posts {
+  color: #444;
+  overflow: hidden;
+}
+.blog-posts h4 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.blog-posts span.admin {
+  display: block;
+}
+.blog-posts span.date {
+  display: block;
+  margin-bottom: 15px;
+}
+.blog-posts p {
+  margin-bottom: 15px;
+}
+.blog-posts a.link {
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 5px;
+  outline: none;
+  border: none;
+  background-color: #ddd;
+  margin: 5px 0;
+}
+
+.contact-form input[type="submit"] {
+  color: #ba2e1f;
+  text-transform: uppercase;
+}
+footer {
+  color: #444;
+  background: #5555;
+  padding: 20px;
+  text-align: center;
+}
+/* =====================================================
+    Responsive Css
+========================================================*/
+
+@media (max-width: 1280px) {
+  .title-text h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .title-text h1 span {
+    display: block;
+    font-size: 50px;
+    font-family: georgia;
+  }
+}
+@media (max-width: 991px) {
+  .title-text h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .title-text h1 span {
+    display: block;
+    font-size: 40px;
+    font-family: georgia;
+  }
+}
+@media (max-width: 768px) {
+  .title-box {
+    display: block;
+  }
+  .title-img {
+    width: 100%;
+    height: 100%;
+  }
+  .title-text {
+    width: 100%;
+    margin-left: 0;
+  }
+  .title-text h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .title-text h1 span {
+    display: block;
+    font-size: 30px;
+    font-family: georgia;
+  }
+  .random-wrap {
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+  .random-wrap .client-box {
+    width: 200%;
+  }
+  .footer-widget {
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+}
+@media (max-width: 575px) {
+  .header-top {
+    display: block;
+    text-align: center;
+  }
+  .header-search{
+    margin: auto;
+  }
+  .header-middle {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .title-box {
+    display: block;
+  }
+  .title-img {
+    width: 100%;
+    height: 100%;
+  }
+  .title-text {
+    width: 100%;
+    margin-left: 0;
+  }
+  .title-text h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .title-text h1 span {
+    display: block;
+    font-size: 30px;
+    font-family: georgia;
+  }
+  .random-wrap {
+    display: block;
+  }
+  .random-wrap .client-box {
+    width: 100%;
+  }
+  .footer-widget {
+    display: block;
+  }
+}
