@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1200px)
+{
+    header{
+        height: 65vh;
+    }
+}
+@media only screen and (max-width: 1024px)
+{
+    header{
+        height: 55vh;
+    }
+    .row{
+        margin: 0 1.5rem;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section form{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 980px)
+{
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    .span_1_of_2:nth-child(3){
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .little-description{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2.1rem;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    header{
+        height: 75vh;
+    }
+    .span_1_of_4{
+        width: 100%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .little-description{
+        font-size: 1.6rem;
+    }
+    .footer-section li a {
+        font-size: 2rem;
+    }
+    .portfolio-filter button:last-child{
+        margin-top: 3px;
+    }
+    
+}
