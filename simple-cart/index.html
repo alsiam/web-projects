@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al Smart Shop - AL Siam</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+  <!-- google Montserrat  font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!--Fontawesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!------------- Header Section  ------------------>
+  <header class="header">
+    <div class="container">
+      <div class="row main-header">
+        <!--------- Logo --------------->
+        <div class="col-md-3">
+          <h2 class="logo"><span class="color">Al</span> Shop.</h2>
+        </div>
+        <!------------ Search and Button  ---------------->
+        <div class="col-md-6 text-center">
+          <div class="from-input mt-3">
+            <div class="input-field">
+              <input type="text" id="form-style" class="form-control" placeholder="Search Here.."
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button id="" class="search-btn" type="button" id="button-addon2">Search</button>
+            </div>
+          </div>
+        </div>
+        <!----------- Cart Box  ------------------->
+        <div class="col-md-3">
+          <div class="icon-list text-white text-center">
+            <i class="fa fa-heart-o"></i>
+            <p>Your wishlist</p>
+          </div>
+          <div class="icon-list1 text-white text-center">
+            <i class="fa fa-shopping-cart"></i>
+            <p>Your card</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Products  -->
+    <div class="row">
+      <div class="col-md-9 col-lg-9 col-sm-7">
+        <div id="all-products" class="">
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
+        <div class="cart" id="my-cart">
+          <table class="table">
+            <thead>
+              <h1>My-Cart</h1>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Total Added-Products:</th>
+                <td><span id="total-Products">0</span></td>
+              </tr>
+              <tr>
+                <th>Price:</th>
+                <td>$ <span id="price">0</span></td>
+              </tr>
+              <tr>
+                <th>Delivery-Charge:</th>
+                <td>$ <span id="delivery-charge">20</span></td>
+              </tr>
+              <tr>
+                <th>Total-Tax:</th>
+                <td>$ <span id="total-tax">0</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Total</th>
+                <td colspan="2">$ <span id="total">0</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="parces text-center">
+            <button class="btn btn-primary text-center">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- add javascript  file  -->
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
