@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Bike Palace - Al Siam</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/harely-davidson-logo.ico" type="image/x-icon">
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/e768f44d60.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+    </style>
+
+</head>
+
+<body>
+
+
+    <!-- header started
+------------------------------- -->
+    <header class="text-white" id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span class="logo-text">Bike Palace<sup
+                            class="logo-dot">.</sup></span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex me-auto"> </div>
+                    <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+            </div>
+        </nav>
+        <div class="py-lg-3 d-lg-flex .d-md-block slider-img">
+            <div class="container d-lg-flex align-items-center .d-md-block">
+                <div class="slide-wrap">
+                    <p style="color: #E0E0E0;">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="fw-bold text-white slide-title">Honda CBR 300R</h1>
+                    <p class="slide-details">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-second">
+                                    <h1 class="fs-2">Are you sure want to By Harely Davidson??</h1>
+                                    <span class="fs-4">Its $23,000 </span>
+                                </div>
+                                <div class="modal-footer text-second">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-second">
+                                    <h1 class="fs-3">Its Processing</h1>
+                                </div>
+                                <div class="modal-footer text-second">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary px-4 py-2 border-0" style="background-color: #E76F51;"
+                        data-bs-toggle="modal" href="#exampleModalToggle" role="button"> Purchase <i
+                            class="fas fa-shopping-cart"></i>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Bike -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-center fw-bold">Featured Bike <span style="color: #E76F51;">2021</span></h1>
+                <p class="mb-5 position-relative small-border-p fw-bold" style="color: #E76F51;">Best bike collection
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 g-5" style=" filter: grayscale(100%);">
+                    <img src="images/header-bike.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 g-5">
+                    <img src="images/header-bike.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 g-5" style=" filter: grayscale(100%);">
+                    <img src="images/header-bike.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Harely Daveidson -->
+    <section class="about-harley-box py-3">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-center fw-bold py-5 position-relative small-border">BIKE <span
+                        style="color: #E76F51;"> EVER</span>
+            </div>
+            <div class="row my-3">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="images/harley-main.jpg" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <h1 class="fs-1 text-color fw-bold">Harley-Davidson Motor Company. </h1>
+                    <span class="my-3 d-block">ABOUT US</span>
+                    <p>Harley-Davidson® dealership for the
+                        Niagara Frontier and all of Western New York, including Niagara Falls, Tonawanda, Lockport,
+                        Kenmore, Williamsville, Buffalo, Lackawanna, Hamburg, East Aurora and Depew.</p>
+                    <p>We provide a full-line of Harley-Davidson® motorcycles, parts, accessories and apparel. Whether
+                        you are just starting to develop an interest in the popular Harley-Davidson® craze or you are a
+                        seasoned riding veteran, we have everything you need to "Live to Ride".</p>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <h1 class="fs-1 text-color fw-bold">WELCOME TO AMERICAN HARLEY-DAVIDSON®</h1>
+                    <span class="my-3">ABOUT US</span>
+                    <p>American Harley-Davidson® North Tonawanda, NY is the premier Harley-Davidson® dealership for the
+                        Niagara Frontier and all of Western New York, including Niagara Falls, Tonawanda, Lockport,
+                        Kenmore, Williamsville, Buffalo, Lackawanna, Hamburg, East Aurora and Depew.</p>
+                    <p>Harley-Davidson® motorcycles, parts, accessories and apparel. Whether
+                        you are just starting to develop an interest in the popular Harley-Davidson® craze or you are a
+                        seasoned riding veteran, we have everything you need to "Live to Ride".</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <video src="video/harley.mp4" style="width: 100%;" controls poster="images/harley-1.jpg"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Shoping Section Started
+    -------------------------------- -->
+    <section class="primary-color py-3" >
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-center fw-bold py-5 position-relative small-border">Lets Make Some<span
+                        style="color: #E76F51;"> Shopping</span>
+            </div>
+            <div class="row g-4">
+
+                <!-- Single Shop BOx -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card p-3  border-0 shadow-lg single-shop">
+                        <img src="images/bike-1.png" class="card-img-top mx-auto mt-3" style="width: 90%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-color">Harley Davidson</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="text-success fw-bold fs-3">$23,000</a>
+                                <button class="btn bg-main text-white" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    Buy Now <i class="fas fa-shopping-cart"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title fw-bold text-color text-uppercase"
+                                            id="offcanvasExampleLabel">Buying Immidietly</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="my-1">
+                                            Some text as placeholder. In real life you can have the elements you have
+                                            chosen. Like, text, images, lists, etc.
+                                        </div>
+                                        <div>
+                                            <img src="images/bike-1.png" class="img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-wrap p-1 my-3">
+                                            <input type="text" placeholder="Enter Coupon" style="width: 60%;"
+                                                class="form-control">
+                                            <button class="btn btn-warning text-white " style="width: 40%;">Apply
+                                                Coupon</button>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Price </span>
+                                            <span>$23,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Taxes </span>
+                                            <span>$2,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">SubTotal </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Total </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div>
+                                            <div class="btn bg-main text-black mx-auto" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"><span class="fw-bold text-white">Order
+                                                    Now</span>
+
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title text-start"
+                                                                    id="exampleModalLabel">Buying Procced
+                                                                    title</h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start fw-bold text-second">
+                                                                Successfully Order Placed. Your will deliver by
+                                                                Multimission Maritime Helicopter
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Shop BOx -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card p-3  border-0 shadow-lg single-shop">
+                        <img src="images/bike-2.png" class="card-img-top mx-auto mt-3" style="width: 90%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-color">Yamaha MT 15</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="text-success fw-bold fs-3">$23,000</a>
+                                <button class="btn bg-main text-white" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    Buy Now <i class="fas fa-shopping-cart"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title fw-bold text-color text-uppercase"
+                                            id="offcanvasExampleLabel">Buying Immidietly</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="my-1">
+                                            Some text as placeholder. In real life you can have the elements you have
+                                            chosen. Like, text, images, lists, etc.
+                                        </div>
+                                        <div>
+                                            <img src="images/bike-2.png" class="img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-wrap p-1 my-3">
+                                            <input type="text" placeholder="Enter Coupon" style="width: 60%;"
+                                                class="form-control">
+                                            <button class="btn btn-warning text-white " style="width: 40%;">Apply
+                                                Coupon</button>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Price </span>
+                                            <span>$23,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Taxes </span>
+                                            <span>$2,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">SubTotal </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Total </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div>
+                                            <div class="btn bg-main text-black mx-auto" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"><span class="fw-bold text-white">Order
+                                                    Now</span>
+
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title text-start"
+                                                                    id="exampleModalLabel">Buying Procced
+                                                                    title</h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start fw-bold text-second">
+                                                                Successfully Order Placed. Your will deliver by
+                                                                Multimission Maritime Helicopter
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sigle Shop Box -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card p-3  border-0 shadow-lg single-shop">
+                        <img src="images/bike-3.png" class="card-img-top mx-auto mt-3" style="width: 90%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-color">Yamaha FZ-X</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="text-success fw-bold fs-3">$23,000</a>
+                                <button class="btn bg-main text-white" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    Buy Now <i class="fas fa-shopping-cart"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title fw-bold text-color text-uppercase"
+                                            id="offcanvasExampleLabel">Buying Immidietly</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="my-1">
+                                            Some text as placeholder. In real life you can have the elements you have
+                                            chosen. Like, text, images, lists, etc.
+                                        </div>
+                                        <div>
+                                            <img src="images/bike-3.png" class="img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-wrap p-1 my-3">
+                                            <input type="text" placeholder="Enter Coupon" style="width: 60%;"
+                                                class="form-control">
+                                            <button class="btn btn-warning text-white " style="width: 40%;">Apply
+                                                Coupon</button>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Price </span>
+                                            <span>$23,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Taxes </span>
+                                            <span>$2,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">SubTotal </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Total </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div>
+                                            <div class="btn bg-main text-black mx-auto" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"><span class="fw-bold text-white">Order
+                                                    Now</span>
+
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title text-start"
+                                                                    id="exampleModalLabel">Buying Procced
+                                                                    title</h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start fw-bold text-second">
+                                                                Successfully Order Placed. Your will deliver by
+                                                                Multimission Maritime Helicopter
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sigle Shop Box -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card p-3  border-0 shadow-lg single-shop">
+                        <img src="images/harley-6.jpg" class="card-img-top mx-auto mt-3" style="width: 90%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-color">Honda Activa 6G</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="text-success fw-bold fs-3">$23,000</a>
+                                <button class="btn bg-main text-white" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    Buy Now <i class="fas fa-shopping-cart"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title fw-bold text-color text-uppercase"
+                                            id="offcanvasExampleLabel">Buying Immidietly</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="my-1">
+                                            Some text as placeholder. In real life you can have the elements you have
+                                            chosen. Like, text, images, lists, etc.
+                                        </div>
+                                        <div>
+                                            <img src="images/bike-4.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-wrap p-1 my-3">
+                                            <input type="text" placeholder="Enter Coupon" style="width: 60%;"
+                                                class="form-control">
+                                            <button class="btn btn-warning text-white " style="width: 40%;">Apply
+                                                Coupon</button>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Price </span>
+                                            <span>$23,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Taxes </span>
+                                            <span>$2,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">SubTotal </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Total </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div>
+                                            <div class="btn bg-main text-black mx-auto" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"><span class="fw-bold text-white">Order
+                                                    Now</span>
+
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title text-start"
+                                                                    id="exampleModalLabel">Buying Procced
+                                                                    title</h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start fw-bold text-second">
+                                                                Successfully Order Placed. Your will deliver by
+                                                                Multimission Maritime Helicopter
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sigle Shop Box -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card p-3  border-0 shadow-lg single-shop">
+                        <img src="images/harley-1.jpg" class="card-img-top mx-auto mt-3" style="width: 90%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-color">Harely Bullet 350</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="text-success fw-bold fs-3">$23,000</a>
+                                <button class="btn bg-main text-white" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    Buy Now <i class="fas fa-shopping-cart"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title fw-bold text-color text-uppercase"
+                                            id="offcanvasExampleLabel">Buying Immidietly</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="my-1">
+                                            Some text as placeholder. In real life you can have the elements you have
+                                            chosen. Like, text, images, lists, etc.
+                                        </div>
+                                        <div>
+                                            <img src="images/harley-1.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-wrap p-1 my-3">
+                                            <input type="text" placeholder="Enter Coupon" style="width: 60%;"
+                                                class="form-control">
+                                            <button class="btn btn-warning text-white " style="width: 40%;">Apply
+                                                Coupon</button>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Price </span>
+                                            <span>$23,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Taxes </span>
+                                            <span>$2,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">SubTotal </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Total </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div>
+                                            <div class="btn bg-main text-black mx-auto" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"><span class="fw-bold text-white">Order
+                                                    Now</span>
+
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title text-start"
+                                                                    id="exampleModalLabel">Buying Procced
+                                                                    title</h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start fw-bold text-second">
+                                                                Successfully Order Placed. Your will deliver by
+                                                                Multimission Maritime Helicopter
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sigle Shop Box -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card p-3  border-0 shadow-lg single-shop">
+                        <img src="images/harley-4.jpg" class="card-img-top mx-auto mt-3" style="width: 90%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-color">Harley Davidson</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="text-success fw-bold fs-3">$23,000</a>
+                                <button class="btn bg-main text-white" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    Buy Now <i class="fas fa-shopping-cart"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title fw-bold text-color text-uppercase"
+                                            id="offcanvasExampleLabel">Buying Immidietly</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="my-1">
+                                            Some text as placeholder. In real life you can have the elements you have
+                                            chosen. Like, text, images, lists, etc.
+                                        </div>
+                                        <div>
+                                            <img src="images/bike-1.png" class="img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-wrap p-1 my-3">
+                                            <input type="text" placeholder="Enter Coupon" style="width: 60%;"
+                                                class="form-control">
+                                            <button class="btn btn-warning text-white " style="width: 40%;">Apply
+                                                Coupon</button>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Price </span>
+                                            <span>$23,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Taxes </span>
+                                            <span>$2,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">SubTotal </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between bg-gray p-1 my-3">
+                                            <span class=" fw-bold">Total </span>
+                                            <span>$25,000</span>
+                                        </div>
+                                        <div>
+                                            <div class="btn bg-main text-black mx-auto" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"><span class="fw-bold text-white">Order
+                                                    Now</span>
+
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title text-start"
+                                                                    id="exampleModalLabel">Buying Procced
+                                                                    title</h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body text-start fw-bold text-second">
+                                                                Successfully Order Placed. Your will deliver by
+                                                                Multimission Maritime Helicopter
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Happy Clients 
+    -------------------------------- -->
+    <section class="client-section">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-center fw-bold  py-5 small-border position-relative">Happy <span
+                        style="color: #E76F51;">Clients Says</span>
+            </div>
+            <div class="">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Single Card -->
+                    <div class="col text-center">
+                        <div class="card h-100 py-3 single-card">
+                            <img src="images/user-1.png" class="card-img-top img-fluid p-3 mx-auto" style="width: 50%;"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                            </div>
+                            <div class="text-center">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Mark Miles</h5>
+                            <span class="fw-bold">Banker</span>
+                        </div>
+                    </div>
+                    <!-- Single Card -->
+                    <div class="col text-center">
+                        <div class="card h-100 py-3 single-card">
+                            <img src="images/user-2.png" class="card-img-top img-fluid p-3 mx-auto" style="width: 50%;"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                            </div>
+                            <div class="text-center">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Zuck Miles</h5>
+                            <span class="fw-bold">Banker</span>
+                        </div>
+                    </div>
+                    <!-- Single Card -->
+                    <div class="col text-center">
+                        <div class="card h-100 py-3 single-card">
+                            <img src="images/user-3.png" class="card-img-top img-fluid p-3 mx-auto rounded-circle"
+                                style="width: 50%;" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                            </div>
+                            <div class="text-center">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Regina Miles</h5>
+                            <span class="fw-bold">Banker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently Client Says -->
+    <section class="frequent-box">
+        <div class="container">
+            <div>
+                <h1 class="text-center fw-bold  py-5 small-border position-relative">Frequently Asked <span
+                        style="color: #E76F51;">Questions</span>
+                </h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="images/faq.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item my-3">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    What are the most important things I should know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-3">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    How can I tell if my helmet is old and I need a new one?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-3">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-3">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#header" class="back-top"><i class="fas fa-chevron-up"></i></a>
+    <!-- Footer Section
+    ---------------------------- -->
+    <footer class="py-5" style="background-color: #0B0D17;">
+        <div class="container ">
+            <div class="d-lg-flex justify-content-between align-items-center text-white">
+                <div class="">
+                    <div class="d-flex">
+                        <a class="me-3" href="#">Downloads</a>
+                        <a class="me-3" href="#">License</a>
+                    </div>
+                    <div class="d-flex">
+                        <a class="me-3 my-3" href="#">About</a>
+                        <a class="me-3 my-3" href="#">Pricing</a>
+                        <a class="me-3 my-3" href="#">Careers</a>
+                        <a class="me-3 my-3" href="#">Help</a>
+                    </div>
+                    <div class="my-3">
+                        <span class="tt-uppercase">&copy2020 all rights reserved by al siam</span>
+                    </div>
+                </div>
+                <div class="">
+                    <h4>Get the App</h4>
+                    <img src="images/app-store.png" class="img-fluid d-block rounded my-3" style="width: 50%;" alt="">
+                    <img src="images/play-store.png" class="img-fluid d-block rounded my-3" style="width: 50%;" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
