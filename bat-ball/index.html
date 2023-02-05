@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bal Ball</title>
+    <style type="text/css">
+
+       :root{
+            --main-color: blue;
+        }
+        body{
+            background: var(--main-color);
+        }
+        .main-hit{
+            width: 100%;
+            overflow: hidden;
+        }
+        .main-hit img{
+            width: 70px;
+            margin-left: 250px;
+            margin-top: 50px;
+            transform-origin: top;
+            transform: rotate(25deg);
+            transition: transform .5s ease-in-out;
+
+        }
+        .main-hit:hover img{
+            transform: rotate(-35deg);
+        }
+
+        .ball{
+            width: 25px;
+            height: 25px;
+            background: red;
+            border-radius: 50%;
+            border: 4px solid yellow;
+            position: absolute;
+            margin-left: 300px;
+            overflow: hiden;
+            margin-top: -80px;
+            transition: 1s ease-in-out .1s;
+
+        }
+        .main-hit:hover .ball{
+            margin-left: 1400px;
+            margin-top: -380px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-hit">
+        <img src="bat.png" alt="">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
