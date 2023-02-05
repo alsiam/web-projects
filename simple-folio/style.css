@@ -1,0 +1,457 @@
+/* ===================================
+-----Default Design
+===================================== */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+body{
+    background: linear-gradient(90deg,#b703ee,#002fff);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+/* ================================
+------ Beautiful Block 
+==================================*/
+.btn{
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+}
+
+
+/* ====================================
+------- Designing start here
+====================================== */
+
+/* Header Menu */
+.menu-bar-wrap{
+    overflow: hidden;
+    padding: 10px;
+}
+.header-logo{
+    float: left;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-logo a{
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 30px;
+    padding: 3px 0;
+    display: block;
+}
+.header-menu{
+    width: 80%;
+    float: right;
+}
+.header-menu ul{
+    float: right;
+}
+.header-menu ul li{
+    display: inline-block;
+
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    font-size: 20px;
+    font-size: bold;
+    background: linear-gradient(to top, #eee,#eee);
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    transition: background-size 1s, color 1s;
+}
+.header-menu ul li a:hover{
+    background-size: 100% 100%;
+    color: black;
+}
+.header-menu .active{
+    background: white;
+    color: black;
+
+}
+
+/* header slide */
+
+.header-slide{
+    overflow: hidden;
+    padding: 28px;
+}
+
+.slide-desc{
+    width: 40%;
+    float: left;
+    margin: 50px;
+}
+.slide-desc h4{
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+    ;
+}
+.slide-desc h1{
+    font-weight: normal;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: white;
+    ;
+}
+.slide-desc h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+    ;
+}
+.slide-desc ul li{
+    display: block;
+    margin: 20px 0;
+    width: 180px;
+    border: 1px solid #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.slide-desc ul li a{
+    color: #fff;
+    font-size: 30px;
+    background: linear-gradient(to right,#fff,#fff);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition:  .5s ;
+}
+.slide-desc ul li:hover a{
+    padding-left: 74px;
+    padding-right: 74px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    background-size: 100% 100%;
+    color: #333;
+}
+
+.slide-desc button{
+    margin-top: 50px;
+    margin-right: 20px;
+    transition: .5s;
+    background: linear-gradient(to right, #eee, #eee);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size color 1s 0s;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.slide-desc button a{
+    transition: 1s;
+    display: block;
+}
+.slide-desc button:hover{
+    color: #333;
+    background-size: 100% 100%;
+}
+.slide-desc button:hover a{
+    color: #333;
+}
+
+.slide-img{
+    width: 35%;
+    margin-top: 50px;
+    float: right;
+    position: relative;
+}
+.slide-img span{
+    width: 79%;
+    height: 62vh;
+    border: 5px solid #fff;
+    position: absolute;
+    top: -20px;
+    left: 24px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.slide-img img{
+    width: 80%;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+/* About section started here */
+.about-wrap{
+    overflow: hidden;
+}
+.left-about{
+    width: 49%;
+    float: left;
+}
+.right-about{
+    width: 49%;
+    float: right;
+}
+
+/* left options started here */
+
+
+ .html{
+     width: 90%;
+     background: rgba(255, 255, 255, 0.884);
+     border-radius: 10px;
+ }
+ .left-about strong{
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+    display: block;
+ }
+ .html-per{
+     width: 70%;
+     background: #333;;
+     font-family: monospace;
+     border-radius: 10px;
+     color: white;
+     padding: 5px;
+     font-size: 10px;
+ }
+ .css-per{
+     width: 40%;
+     background: #333;;
+     font-family: monospace;
+     border-radius: 10px;
+     color: white;
+     padding: 5px;
+     font-size: 10px;
+ }
+ .js-per{
+     width: 20%;
+     background:  #333;
+     font-family: monospace;
+     border-radius: 10px;
+     color: white;
+     padding: 5px;
+     font-size: 10px;
+ }
+ .bt-per{
+     width: 50%;
+     background: #333;;
+     font-family: monospace;
+     border-radius: 10px;
+     color: white;
+     padding: 5px;
+     font-size: 10px;
+ }
+ 
+ .php-per{
+     width: 10%;
+     background:  #333;;
+     font-family: monospace;
+     border-radius: 10px;
+     color: white;
+     padding: 5px;
+     font-size: 10px;
+ }
+ 
+ .wordpress-per{
+     width: 20%;
+     background:  #333;;
+     font-family: monospace;
+     border-radius: 10px;
+     color: white;
+     padding: 5px;
+     font-size: 10px;
+ }
+ 
+
+ /* ============= */
+
+.about-box{
+    background:linear-gradient(to right,rgb(175, 63, 175),rgb(71, 71, 230));
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 20px 0;
+
+}
+.about-wrap{
+    padding: 15px;
+}
+.about-wrap h2{
+    font-size: 45px;
+    color: #fff;
+    font-family: arial black;
+    text-transform: uppercase;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border-bottom: 3px solid white;
+    margin-bottom: 50px;
+}
+.right-about p{
+    font-size: 18px;
+    line-height: 25px;
+    font-family: arial;
+    margin-top: 20px;
+    color: white;
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+/* My Services started here */
+.service-box{
+    background: linear-gradient(120deg,rgba(20, 42, 220, 0.27),#ff00b380);
+    padding: 30px 0;
+}
+.service-box h2{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border-bottom: 3px solid #fff;
+    padding: 10px 0;
+}
+.service-wrap{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-wrap .box{
+    background: linear-gradient(180deg,#f000003f,#0026ff3a);
+    padding: 20px;
+    width: 32%;
+}
+.box{
+    position: relative;
+}
+.box i{
+    font-size: 50px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    color: #00000075;
+}
+.box h3{
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: 2px solid blue;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.box p{
+    font-family: arial;
+    color: wheat;
+    text-align: justify;
+}
+
+/* contact design started here */   
+.contact-box{
+    background: linear-gradient(180deg,#f000003f,#0026ff3a);
+    padding: 40px 0;
+}
+.contact-box h3{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 10px 0px;
+    border-bottom: 3px solid black;
+}
+.contact-wrap{
+    display: flex;
+    padding: 20px 0;
+}
+.contact-info{
+    width: 50%;
+    line-height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: linear-gradient(#00000050,#00000050);
+    padding: 30px 10px;
+    margin-right: 20px;
+}
+.contact-info h4{
+    color: #fff;
+}
+.contact-info h4:first-child{
+    margin-top: 70px;
+}
+.contact-input{
+    width: 50%;
+    background: linear-gradient(#00000050,#00000050);
+    padding: 25px 10px;
+}
+.contact-input input,textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.contact-input input:focus{
+    outline: 2px solid purple;
+}
+.contact-input textarea:focus{
+    outline: 2px solid purple;
+}
+.contact-input input:last-child{
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right,#eee,#eee);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border-radius: 15px;
+    border: none;
+    transition: background-size 1s ,color 1s;
+}
+.contact-input input:last-child:hover{
+    background-size: 100% 100%;
+    color: black;
+}
+.contact-input input:last-child:focus{
+    outline: none;
+}
+
+
+/* Footer section started here */
+footer span{
+    background: rgb(14, 14, 14);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+}
