@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Header Style */
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 89, 255, 0.479);
+  border-bottom: 3px solid lightgrey;
+}
+.color {
+  color: #333;
+  font-size: 50px;
+}
+.logo {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.icon-list,
+.icon-list1 {
+  display: inline-block;
+  display: inline-block;
+  padding: 5px 26px 0px 18px;
+}
+.input-field {
+  display: flex;
+}
+.search-btn {
+  background: #333;
+  color: #fff;
+  padding: 6px;
+  display: block;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+}
+.the-btn {
+  background: #333;
+  color: #fff;
+  padding: 6px;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  transition: .6s;
+  border: 1px solid #333;
+}
+.the-btn:hover{
+  background-color: transparent;
+  border: 1px solid #333;
+}
+.title {
+  padding: 10px;
+  margin: auto;
+  color: cadetblue;
+  text-align: center;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+/* Products */
+#all-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* single product styles  */
+.single-product {
+  margin: 15px;
+  height: 475px;
+  padding: 10px;
+  background: linear-gradient(180deg, white, rgba(0, 20, 255, 0.1));
+  border-radius: 10px;
+  box-shadow: 4px 4px 9px rgb(163, 161, 161);
+  transition: 0.6s;
+}
+.single-product:hover {
+  box-shadow: px 9px 12px rgb(163, 161, 161);
+  background: linear-gradient(180deg, white, rgba(255, 0, 0, 0.1));
+}
+.product-image {
+  width: 150px;
+  height: 150px;
+}
+.product-title {
+  font-size: large;
+  font-weight: bold;
+}
+.icon-color {
+  color: rgb(248, 183, 18);
+  font-size: small;
+}
+.icon-detail {
+  font-weight: bolder;
+}
+.product-price {
+  font-size: 25px;
+}
+.buy-now {
+  background-color: rgb(6, 6, 7);
+  color: white;
+  font-weight: bolder;
+}
+
+.rating {
+  color: rgb(201, 201, 201);
+}
+
+.fill-rate {
+  color: #fda500ed;
+}
+
+/* cart styles  */
+.cart {
+  background-color: rgba(255, 0, 0, 0.1);
+  width: 350px;
+  padding: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-right: 30px;
+  position: fixed;
+}
+.cart-main {
+  padding-right: 30px;
+}
+/* styles for responsive site  */
+@media only screen and (max-width: 768px) {
+  #all-products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cart {
+    width: 300px;
+    /* border: 1px solid green; */
+    padding: 10px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
+    margin-right: 30px;
+    position: fixed;
+  }
+  .cart-main {
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  #all-products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
