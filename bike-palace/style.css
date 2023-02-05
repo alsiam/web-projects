@@ -1,0 +1,118 @@
+
+*{margin: 0;padding: 0;}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.back-top{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 25px;width: 40px ;height: 40px;
+    background-color: #333;
+    color: #ddd;
+    border-radius: 50%;text-align: center;
+}
+.logo-text{
+    font-size: 40px;
+    font-family: 'Berkshire Swash',cursive;
+}
+.logo-dot{
+    font-size: 40px;
+    margin-left: 3px;
+    color: #4eda4e;
+}
+.primary-color{
+    background-color: #333;
+}
+.single-shop{
+    background-color: #555;
+}
+
+img{
+    transition: .5s;
+}
+img:hover{
+    transform: scale(1.05);
+}
+
+.client-section{
+    background-color: #333;
+}
+.single-card {
+    background-color: #555;
+}
+#features{
+    background-image: url(images/features-bg.jpg);
+}
+.slider-img {
+    height: 85vh;
+    background-image: url(images/awesomebike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.slide-wrap{
+    width: 60%;;
+}
+.slide-details{
+    color: #ddd
+}
+.about-harley-box{
+    background-color: #0D0925;
+}
+.frequent-box{
+    background-color: #222;
+}
+/* ---------------- */
+  a {
+      color: #ddd;
+      text-decoration: none;
+      display: block;
+  }
+
+  h1 {
+      color: #0D0925;
+  }
+
+  p {
+      color: #6C6C6C;
+  }
+
+  .btn:focus,
+  .form-control:focus {
+      outline: none;
+      box-shadow: none;
+  }
+
+  .small-border-p::after,
+  .small-border::after {
+      content: "";
+      background-color: rgba(231, 111, 81, 0.5);
+      width: 100px;
+      height: 2px;
+      position: absolute;
+      top: 110px;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+
+  .small-border-p::after {
+      top: 30px;
+  }
+
+  .text-color {
+      color: #E76F51;
+  }
+
+  .text-second {
+      color: #264653;
+  }
+
+  .bg-main {
+      background-color: #E76F51;
+  }
+
+  .bg-gray {
+      background-color: rgba(128, 128, 128, 0.2);
+  }
