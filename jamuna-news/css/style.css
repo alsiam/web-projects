@@ -1,0 +1,35 @@
+.container{
+    width: 1170px;
+}
+.header{
+    background-color: #B20F14;
+}
+h1,h2,h3,h4,h5,h6{font-weight: bold !important;}
+.menu-item ul li a{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff !important;
+}
+.card{
+    margin-top: 20px;
+}
+.card.h-100{
+    margin: 10px;
+}
+@media (max-width:767px){
+    .hide{
+        display: none;
+    }
+}
+@media (max-width:580){
+    .col-sm-12{
+        width: 100% !important;
+    }
+    .col-sm-6{
+        width: 100% !important;
+    }
+    .col-sm-4{
+        width: 100% !important;
+    }
+}
+
