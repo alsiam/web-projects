@@ -6,21 +6,28 @@ Welcome to the **Web Design Lab**! 🎉 This repository contains over 10+ 🔥 w
 
 |  No.| Project         | Source Code                                                          | Live Preview         |
 | :-: | ----------------|----------------------------------------------------------------------|-----------------------------------------------------
-| 01  | Hamburger Food | [View Code](https://github.com/alsiam/web-design-lab/tree/main/hamburger-food) | [Preview Site](https://alsiam.github.io/web-design-lab/hamburger-food)
-| 02  | Bat Ball  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/bat-ball)          | [Preview Site](https://alsiam.github.io/web-design-lab/bat-ball)
-| 03  | Cuda Portfolio  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/cuda-portfolio)    | [Preview Site](https://alsiam.github.io/web-design-lab/cuda-portfolio)
-| 04  | Dream Theme  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/dream-theme)       | [Preview Site](https://alsiam.github.io/web-design-lab/dream-theme)
-| 05  | Facebook Login  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/facebook-login)        | [Preview Site](https://alsiam.github.io/web-design-lab/facebook-login)
+| 01  | Hamburger Food | [View Code](https://github.com/alsiam/web-design-lab/tree/main/hamburger-food)   | [Preview Site](https://alsiam.github.io/web-design-lab/hamburger-food)
+| 02  | Bat Ball  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/bat-ball)              | [Preview Site](https://alsiam.github.io/web-design-lab/bat-ball)
+| 03  | Cuda Portfolio  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/cuda-portfolio)  | [Preview Site](https://alsiam.github.io/web-design-lab/cuda-portfolio)
+| 04  | Dream Theme  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/dream-theme)        | [Preview Site](https://alsiam.github.io/web-design-lab/dream-theme)
+| 05  | Facebook Login  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/facebook-login)  | [Preview Site](https://alsiam.github.io/web-design-lab/facebook-login)
 | 06  | Fashion Ecommerce  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/fashion-ecommerce) | [Preview Site](https://alsiam.github.io/web-design-lab/fashion-ecommerce)
-| 07  | Football Club  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/football-club)        | [Preview Site](https://alsiam.github.io/web-design-lab/football-club)
+| 07  | Football Club  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/football-club)    | [Preview Site](https://alsiam.github.io/web-design-lab/football-club)
 | 08  | Jamuna News  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/jamuna-news)        | [Preview Site](https://alsiam.github.io/web-design-lab/jamuna-news)
-| 09  | Personal Web  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/personal-website)        | [Preview Site](https://alsiam.github.io/web-design-lab/personal-website)
+| 09  | Personal Web  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/personal-website)  | [Preview Site](https://alsiam.github.io/web-design-lab/personal-website)
 | 10  | Simple Blog  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/simple-blog)        | [Preview Site](https://alsiam.github.io/web-design-lab/simple-blog)
 | 11  | Simple Cart  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/simple-cart)        | [Preview Site](https://alsiam.github.io/web-design-lab/simple-cart)
-| 12  | Simple Folio  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/simple-folio)        | [Preview Site](https://alsiam.github.io/web-design-lab/simple-folio)
+| 12  | Simple Folio  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/simple-folio)      | [Preview Site](https://alsiam.github.io/web-design-lab/simple-folio)
 | 13  | Spourmo Web  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/spourmo-web)        | [Preview Site](https://alsiam.github.io/web-design-lab/spourmo-web)
-| 14  | Systematic Page  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/systematic-page)        | [Preview Site](https://alsiam.github.io/web-design-lab/systematic-page)
+| 14  | Systematic Page  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/systematic-page)| [Preview Site](https://alsiam.github.io/web-design-lab/systematic-page)
 | 15  | Bike Palace  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/bike-palace)        | [Preview Site](https://alsiam.github.io/web-design-lab/bike-palace)
+| 15  | Books Library  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/books-library)        | [Preview Site](https://alsiam.github.io/web-design-lab/books-library)
+| 15  | Calculator  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/calculator)        | [Preview Site](https://alsiam.github.io/web-design-lab/calculator)
+| 15  | Macbook Cart  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/macbook-cart)        | [Preview Site](https://alsiam.github.io/web-design-lab/macbook-cart)
+| 15  | Navigation Bar  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/navigation-bar)        | [Preview Site](https://alsiam.github.io/web-design-lab/navigation-bar)
+| 15  | Restaurant Menu  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/restaurnat-menu)        | [Preview Site](https://alsiam.github.io/web-design-lab/restaurnat-menu)
+| 15  | Todo List  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/todo-list)        | [Preview Site](https://alsiam.github.io/web-design-lab/todo-list)
+| 15  | Weather Info  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/weather-info)        | [Preview Site](https://alsiam.github.io/web-design-lab/weather-info)
 
 ## How to Contribute 👨‍💻
 
