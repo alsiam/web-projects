@@ -1,4 +1,5 @@
 window.onload = () => {
+    document.getElementById("loading").style.display = "none" 
   const featuredProjectList = featuredProjects.map((project) => {
     return `
             <div class="bg-slate-100 p-3 rounded shadow-lg">
