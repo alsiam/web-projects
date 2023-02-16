@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buying Macbook - ASW</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section class="mt-8">
+            <div
+                class="md:container lg:container md:mx-auto sm\:container grid lg:grid-cols-2 md:grid-cols-1 lg:gap-10 md:gap-0 mx-auto">
+                <div class="left mx-auto">
+                    <img src="img/mac-book-1.jfif" alt="">
+                </div>
+                <div class="right mx-auto">
+                    <div class="details">
+                        <h1 class="text-4xl font-semibold text-gray-800 mb-2">Customize your Blue 24‑inch iMac
+                            with Apple M1 chip.</h1>
+                        <p class="text-1xl">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency
+                            cores, 7-core GPU, and 16-core Neural Engine </p>
+                        <p class="text-sm">8GB unified memory </p>
+                        <p class="text-sm">256GB SSD storage</p>
+                        <p class="text-sm">Two Thunderbolt / USB 4 ports</p>
+                        <p class="text-sm">Magic Mouse & Magic Keyboard</p>
+                    </div>
+                    <div class="configuration">
+                        <div class="ram my-5">
+                            <h2 class="text-2xl font-medium text-gray-800">Memory</h2>
+                            <div class="my-1" id="memory">
+                                <button id="ram-8gb"
+                                    class="border-2 border-gray-800 hover:bg-black hover:text-white font-medium py-2 px-4 rounded transition duration-500 ease-in-out my-1">8GB
+                                    unified
+                                    Memory</button>
+                                <button id="ram-16gb" class="border-2 border-gray-800 hover:bg-black hover:text-white font-medium py-2
+                                    px-4 rounded transition duration-500 ease-in-out my-1">16GB
+                                    unified
+                                    Memory</button>
+                            </div>
+                        </div>
+                        <div class="ssd my-5" id="storage">
+                            <h2 class="text-2xl font-medium text-gray-800">SSD</h2>
+                            <div class="my-1">
+                                <button id="ssd-256gb" class="border-2 border-gray-800 hover:bg-black hover:text-white font-medium py-2
+                                    px-4 rounded transition duration-500 ease-in-out my-1">256GB
+                                    SSD
+                                    Storage</button>
+                                <button id="ssd-512gb" class="border-2 border-gray-800 hover:bg-black hover:text-white font-medium py-2
+                                    px-4 rounded transition duration-500 ease-in-out my-1">512GB
+                                    SSD
+                                    Storage</button>
+                                <button id="ssd-1tb" class="border-2 border-gray-800 hover:bg-black hover:text-white font-medium py-2
+                                    px-4 rounded transition duration-500 ease-in-out my-1">1TB
+                                    SSD
+                                    Storage</button>
+                            </div>
+                        </div>
+                        <div class="delivery my-5">
+                            <h2 class="text-2xl font-medium text-gray-800">Delivery</h2>
+                            <div class="my-1">
+                                <button id="regular-delivery" class="border-2 border-gray-800 hover:bg-black hover:text-white font-medium py-2
+                                    px-4 rounded transition duration-500 ease-in-out my-1">Friday,
+                                    Aug
+                                    25
+                                    Free Prime Delivery</button>
+                                <button id="fast-delivery" class="border-2 border-gray-800 hover:bg-black hover:text-white font-medium py-2
+                                    px-4 rounded transition duration-500 ease-in-out my-1">Wednesday,
+                                    Aug
+                                    21 Delivery Charge $20</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-14">
+                        <table class="table-auto border-collapse w-9/12 text-xl text-gray-800 font-semibold">
+                            <tbody>
+                                <tr class="table-row border-b border-gray-300">
+                                    <td class="p-1">Best Price</td>
+                                    <td class="p-1">$<span id="best-price-amount">1299</span></td>
+                                </tr>
+                                <tr class="table-row border-b border-gray-300">
+                                    <td class="p-1">Extra Memory Cost</td>
+                                    <td class="p-1">$<span id="ram-price-amount">00</span></td>
+                                </tr>
+                                <tr class=" table-row border-b border-gray-300">
+                                    <td class="p-1">Extra Storage Cost</td>
+                                    <td class="p-1">$<span id="ssd-price-amount">00</span></td>
+                                </tr>
+                                <tr class="table-row border-b-2 border-gray-800">
+                                    <td class="p-1">Delivery Charge</td>
+                                    <td class="p-1">$<span id="delivery-price-amount">00</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-1">Total Price</td>
+                                    <td class="p-1">$<span id="total-price-amount">1299</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <div class="my-5 p-1">
+                            <h3 class="text-xl font-medium my-1">Add Promo Code: </h3>
+                            <div class="flex">
+                                <input type="text" class="border-2 p-1 w-7/12" id="promo-code"
+                                    placeholder="Enter Promo Code 'SteveKaku' ">
+                                <button id="promo-apply" class="border-2 border-gray-600 p-1 px-5 rounded-r-lg hover:bg-black hover:text-white
+                                    transition duration-500 ease-in-out">Apply</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto mt-5 text-center text-gray-900 border-t-2 border-gray-400">
+                <div class="text-4xl font-semibold p-5">Total: $<span id="final-total-amount">1299</span></div>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
