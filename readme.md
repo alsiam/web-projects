@@ -1,6 +1,6 @@
 # Web Design Lab 🚀
 
-Welcome to the **Web Design Lab**! 🎉 This repository contains over 10+ 🔥 web projects created using HTML, CSS, and JS. These projects showcase the power of web design and the beauty that can be achieved with these technologies. Each project is designed to be easy to understand and follow, making it perfect for anyone looking to learn more about web design.
+Welcome to the **Web Design Lab**! 🎉 This repository contains over 20+ 🔥 web projects created using HTML, CSS, and JS. These projects showcase the power of web design and the beauty that can be achieved with these technologies. Each project is designed to be easy to understand and follow, making it perfect for anyone looking to learn more about web design.
 
 ## Project List 📜
 
@@ -21,13 +21,13 @@ Welcome to the **Web Design Lab**! 🎉 This repository contains over 10+ 🔥 w
 | 13  | Spourmo Web  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/spourmo-web)        | [Preview Site](https://alsiam.github.io/web-design-lab/spourmo-web)
 | 14  | Systematic Page  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/systematic-page)| [Preview Site](https://alsiam.github.io/web-design-lab/systematic-page)
 | 15  | Bike Palace  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/bike-palace)        | [Preview Site](https://alsiam.github.io/web-design-lab/bike-palace)
-| 15  | Books Library  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/books-library)        | [Preview Site](https://alsiam.github.io/web-design-lab/books-library)
-| 15  | Calculator  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/calculator)        | [Preview Site](https://alsiam.github.io/web-design-lab/calculator)
-| 15  | Macbook Cart  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/macbook-cart)        | [Preview Site](https://alsiam.github.io/web-design-lab/macbook-cart)
-| 15  | Navigation Bar  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/navigation-bar)        | [Preview Site](https://alsiam.github.io/web-design-lab/navigation-bar)
-| 15  | Restaurant Menu  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/restaurnat-menu)        | [Preview Site](https://alsiam.github.io/web-design-lab/restaurnat-menu)
-| 15  | Todo List  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/todo-list)        | [Preview Site](https://alsiam.github.io/web-design-lab/todo-list)
-| 15  | Weather Info  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/weather-info)        | [Preview Site](https://alsiam.github.io/web-design-lab/weather-info)
+| 16  | Books Library  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/books-library)        | [Preview Site](https://alsiam.github.io/web-design-lab/books-library)
+| 17  | Calculator  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/calculator)        | [Preview Site](https://alsiam.github.io/web-design-lab/calculator)
+| 18  | Macbook Cart  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/macbook-cart)        | [Preview Site](https://alsiam.github.io/web-design-lab/macbook-cart)
+| 19  | Navigation Bar  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/navigation-bar)        | [Preview Site](https://alsiam.github.io/web-design-lab/navigation-bar)
+| 20  | Restaurant Menu  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/restaurnat-menu)        | [Preview Site](https://alsiam.github.io/web-design-lab/restaurnat-menu)
+| 21  | Todo List  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/todo-list)        | [Preview Site](https://alsiam.github.io/web-design-lab/todo-list)
+| 22  | Weather Info  | [View Code](https://github.com/alsiam/web-design-lab/tree/main/weather-info)        | [Preview Site](https://alsiam.github.io/web-design-lab/weather-info)
 
 ## How to Contribute 👨‍💻
 
