@@ -1,19 +1,4 @@
 window.onload = () => {
-  // Set the loading flag to true
-  let loading = true;
-
-  // Define a function to check the status of the loading flag
-  function checkLoading() {
-    if (loading) {
-      document.getElementById("loading").style.display = "block";
-    } else {
-      document.getElementById("loading").style.display = "none";
-      clearInterval(loadingInterval);
-    }
-  }
-
-  const loadingInterval = setInterval(checkLoading, 100);
-
   const featuredProjectList = featuredProjects.map((project) => {
     return `
             <div class="bg-slate-100 p-3 rounded shadow-lg">
@@ -35,10 +20,8 @@ window.onload = () => {
         `;
   });
 
-  document.getElementById("loading").style.display = "none";
   document.getElementById("featured-projects").innerHTML =
     featuredProjectList.join("");
-
   const totalProjectList = totalProjects.map((project) => {
     return `
         <div class="bg-slate-100 p-3 rounded shadow-lg">
@@ -60,30 +43,9 @@ window.onload = () => {
     `;
   });
 
-  // Set the loading flag to false
-  loading = false;
-
-  // Define a counter for the images that have been loaded
-  let imagesLoaded = 0;
-
-  // Define a function to be called when an image is loaded
-  function imageLoaded() {
-    imagesLoaded++;
-    if (imagesLoaded === totalProjects.length) {
-      loading = false;
-    }
-  }
-
-  // Call the checkLoading function initially to show the preloader
-  checkLoading();
-
-  // Hide the preloader element and inject the project data when all images are loaded
-  const interval = setInterval(() => {
-    if (imagesLoaded === totalProjects.length) {
-      clearInterval(interval);
-      document.getElementById("total-projects").innerHTML =
-        totalProjectList.join("");
-      checkLoading();
-    }
-  }, 100);
+  document.getElementById("total-projects").innerHTML =
+    totalProjectList.join("");
+  // setTimeout(() => {
+  //     document.getElementById("preloader").style.display = "none";
+  //   }, 2000);
 };
