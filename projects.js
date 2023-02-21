@@ -111,7 +111,7 @@ window.totalProjects = [
   },
   {
     id: 13,
-    name: "Simple Folio",
+    name: "Portfolio",
     thumbnail: "assets/images/portfolio.png",
     preview: "https://alsiam.github.io/web-projects/portfolio",
     code: "https://github.com/alsiam/web-projects/tree/main/portfolio",
