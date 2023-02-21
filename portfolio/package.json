@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "author": "alsiam",
+  "license": "MIT",
+  "scripts": {
+    "build:style": "tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
