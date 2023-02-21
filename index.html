@@ -21,7 +21,7 @@
     <!-- custom skeleton preloader -->
     <div id="preloader" class="fixed top-0 left-0 bg-slate-300 w-screen h-screen z-10">
         <div class="wrapper">
-            <div class="max-w-screen-xl mx-auto h-14">
+            <div class="mx-3 md:max-w-screen-xl md:mx-auto h-14">
                 <div class="flex justify-between items-center pt-6">
                     <div class="w-48 h-8 bg-slate-200 "></div>
                     <div class="w-40 h-8 bg-slate-200 rounded-full"></div>
@@ -30,7 +30,7 @@
             <div class="bg-slate-200 p-6 pb-12 m-6">
                 <div class="max-w-screen-xl mx-auto">
                     <div class="bg-slate-100 h-12 p-1 mb-3"></div>
-                    <div class="grid grid-cols-3 gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         <div class="bg-slate-100 h-64"></div>
                         <div class="bg-slate-100 h-64"></div>
                         <div class="bg-slate-100 h-64"></div>
@@ -45,14 +45,14 @@
 
     <!-- Header navigation bar-->
     <header class="bg-slate-200 pt-4">
-        <div class="max-w-screen-xl mx-auto">
-            <div class="text-center flex justify-between">
+        <div class="mx-3 md:max-w-screen-xl md:mx-auto">
+            <div class="text-center flex justify-between items-center">
                 <a href="https://github.com/alsiam/web-projects"
-                    class="text-3xl pt-2 text-blue-500 text-center font-bold font-mono">
+                    class="text-xl md:text-3xl text-blue-500 text-center font-bold font-mono">
                     AL PROJECTS :)
                 </a>
 
-                <a class="bg-slate-800 hover:bg-slate-900 text-white font-medium py-2 px-4 rounded-full"
+                <a class="bg-slate-800 hover:bg-slate-900 text-white font-medium py-1 px-2 md:py-2 md:px-4 rounded-full"
                     href="https://github.com/alsiam/web-projects">
                     Follow on GitHub
                 </a>
@@ -60,21 +60,21 @@
         </div>
     </header>
     <main class="bg-slate-200 p-1">
-        <section class="bg-slate-100 p-6 pb-12 m-6">
+        <section class="bg-slate-100 md:p-2 lg:p-6 pb-12 m-2 md:m-3 lg:m-6">
             <div class="max-w-screen-xl mx-auto">
-                <h1 class="text-3xl text-slate-800 font-semibold font-mono border-b-2 text-center p-1 mb-3">Featured
-                    Projects -</h1>
-                <div id="featured-projects" class="grid grid-cols-3 gap-4">
+                <h1 class="text-xl lg:text-3xl text-slate-800 bg-slate-200 font-semibold border-b-2 text-center p-2 mb-3">6+ Featured
+                    Projects</h1>
+                <div id="featured-projects" class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- Projects injecting by script.js -->
                 </div>
             </div>
         </section>
 
-        <section class="bg-slate-100 p-6 pb-12 m-6">
+        <section class="bg-slate-100 md:p-2 lg:p-6 pb-12 m-2 md:m-3 lg:m-6">
             <div class="max-w-screen-xl mx-auto">
-                <h1 class="text-3xl text-slate-800 font-semibold font-mono border border-b-2 text-center mb-3">Total
-                    Projects -</h1>
-                <div id="total-projects" class="grid grid-cols-3 gap-4">
+                <h1 class="text-xl lg:text-3xl text-slate-800 bg-slate-200 font-semibold border-b-2 text-center  p-2 mb-3">17+ Other
+                    Projects</h1>
+                <div id="total-projects" class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- Projects injecting by script.js -->
                 </div>
             </div>
