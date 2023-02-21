@@ -23,10 +23,10 @@ window.featuredProjects = [
   },
   {
     id: 3,
-    name: "Simple Blog",
-    thumbnail: "assets/images/simple-blog.png",
-    preview: "https://alsiam.github.io/web-projects/simple-blog",
-    code: "https://github.com/alsiam/web-projects/tree/main/simple-blog",
+    name: "Youtube UI",
+    thumbnail: "assets/images/youtube-ui.png",
+    preview: "https://alsiam.github.io/web-projects/youtube-ui",
+    code: "https://github.com/alsiam/web-projects/tree/main/youtube-ui",
   },
   {
     id: 4,
@@ -45,6 +45,13 @@ window.featuredProjects = [
 ];
 
 window.totalProjects = [
+  {
+    id: 3,
+    name: "Simple Blog",
+    thumbnail: "assets/images/simple-blog.png",
+    preview: "https://alsiam.github.io/web-projects/simple-blog",
+    code: "https://github.com/alsiam/web-projects/tree/main/simple-blog",
+  },
   {
     id: 0,
     name: "Hamburger Food",
