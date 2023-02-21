@@ -1,5 +1,5 @@
-# Simple Cart
+# Shopping Cart
 
-# [Preview the site](https://alsiam.github.io/web-projects/simple-cart)
+# [Preview the site](https://alsiam.github.io/web-projects/shopping-cart)
 
-![image info](../assets/images/simple-cart.png)
+![image info](../assets/images/shopping-cart.png)
