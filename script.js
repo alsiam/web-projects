@@ -45,7 +45,8 @@ window.onload = () => {
 
   document.getElementById("total-projects").innerHTML =
     totalProjectList.join("");
-  // setTimeout(() => {
-  //     document.getElementById("preloader").style.display = "none";
-  //   }, 2000);
+    
+  setTimeout(() => {
+      document.getElementById("preloader").style.display = "none";
+    }, 3000);
 };
