@@ -24,7 +24,7 @@ Welcome to the **Web Design Lab**! 🎉 This repository contains over 20+ 🔥 w
 | 16  | Jamuna News      | [View Code](https://github.com/alsiam/web-projects/tree/main/jamuna-news)      | [Preview Site](https://alsiam.github.io/web-projects/jamuna-news)
 | 17  | Personal Web     | [View Code](https://github.com/alsiam/web-projects/tree/main/personal-website) | [Preview Site](https://alsiam.github.io/web-projects/personal-website)
 | 18  | Simple Cart      | [View Code](https://github.com/alsiam/web-projects/tree/main/simple-cart)      | [Preview Site](https://alsiam.github.io/web-projects/simple-cart)
-| 19  | Simple Folio     | [View Code](https://github.com/alsiam/web-projects/tree/main/simple-folio)     | [Preview Site](https://alsiam.github.io/web-projects/simple-folio)
+| 19  | Simple Folio     | [View Code](https://github.com/alsiam/web-projects/tree/main/portfolio)     | [Preview Site](https://alsiam.github.io/web-projects/portfolio)
 | 20  | Systematic Page  | [View Code](https://github.com/alsiam/web-projects/tree/main/systematic-page)  | [Preview Site](https://alsiam.github.io/web-projects/systematic-page)
 | 21  | Books Library    | [View Code](https://github.com/alsiam/web-projects/tree/main/books-library)    | [Preview Site](https://alsiam.github.io/web-projects/books-library)
 | 22  | Macbook Cart     | [View Code](https://github.com/alsiam/web-projects/tree/main/macbook-cart)     | [Preview Site](https://alsiam.github.io/web-projects/macbook-cart)
