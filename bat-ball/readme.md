@@ -1,4 +1,4 @@
-# Bat Ball animation
+# Bat Ball - animation
 
 # [Preview the site](https://alsiam.github.io/web-projects/bat-ball)
 
