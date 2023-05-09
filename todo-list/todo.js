@@ -1,7 +1,7 @@
 const localStorageList = () => {
     const list = getList();
-    for (const name in list) {
-        displayList(name)
+    for (const taskName in list) {
+        displayList(taskName)
     }
 }
 const addItem = () => {
@@ -21,10 +21,10 @@ const addItem = () => {
     inputField.value = '';
 
 }
-const displayList = name => {
+const displayList = taskName => {
     const ul = document.getElementById('ul-list');
     const li = document.createElement('li');
-    li.innerHTML = name;
+    li.innerHTML = taskName;
 
     ul.appendChild(li);
 }
@@ -39,12 +39,12 @@ const getList = () => {
     }
     return listObject;
 }
-const addList = name => {
+const addList = taskName => {
     const list = getList();
-    if (list[name]) {
-        list[name] = list[name] + 1;
+    if (list[taskName]) {
+        list[taskName] = list[taskName] + 1;
     } else {
-        list[name] = 1;
+        list[taskName] = 1;
     }
     const listStringified = JSON.stringify(list);
     localStorage.setItem('list', listStringified);
