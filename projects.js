@@ -165,4 +165,11 @@ window.totalProjects = [
     preview: "https://alsiam.github.io/web-projects/todo-list",
     code: "https://github.com/alsiam/web-projects/tree/main/todo-list",
   },
+  {
+    id: 20,
+    name: "Pomodoro Timer",
+    thumbnail: "assets/images/pomodoro-timer.png",
+    preview: "https://alsiam.github.io/web-projects/pomodoro-timer",
+    code: "https://github.com/alsiam/web-projects/tree/main/pomodoro-timer",
+  },
 ];
