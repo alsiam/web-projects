@@ -1,0 +1,45 @@
+.banner{
+    z-index: 999;
+    position: relative;
+    background: rgb(23, 25, 27);
+    font-weight: 500;
+    padding: 12px 0;
+  }
+  .banner-wrap{
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  }
+  .banner-card{
+    font-size: 16px;
+    color: black;
+    background-color: rgb(99, 216, 218);
+    padding: 1px 10px;
+    border-radius: 10px;
+    margin-right: 4px;
+    font-weight: 600;
+  }
+  .banner-desc{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+  }
+  .banner-btn{
+    outline: none;
+    border: none;;
+    color: black;
+    background-color: white;
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    border-radius: 8px;
+    min-width: max-content;
+    max-width: max-content;
+    transition: .3s ease-in-out;
+  }
+  .banner-btn:hover{
+    color: white;
+    background-color: black;
+  }
+  
